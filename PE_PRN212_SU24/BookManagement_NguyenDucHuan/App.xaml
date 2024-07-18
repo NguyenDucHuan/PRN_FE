@@ -1,0 +1,28 @@
+﻿<Application x:Class="BookManagement_NguyenDucHuan.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BookManagement_NguyenDucHuan"
+             StartupUri="/LoginWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontFamily" Value="Arial Narrow"/>
+            <Setter Property="FontSize" Value="12pt"/>
+            <Setter Property="Foreground" Value="Blue"/>
+            <Setter Property="Width" Value="auto"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="HorizontalContentAlignment" Value="Right"></Setter>
+            <Setter Property="Background" Value="#FFD4F7D4"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#FFD4F7D4"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="BlueViolet" />
+        </Style>
+        <Style x:Key="OutButton" TargetType="Button">
+            <Setter Property="Background" Value="BlueViolet"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="#FFD4F7D4" />
+        </Style>
+    </Application.Resources>
+</Application>

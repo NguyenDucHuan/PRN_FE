@@ -1,0 +1,16 @@
+D:\TERM5\PRN212\PE_PRN212_SU24_TrialTest_StudentName\BookManagement.DAL\bin\Debug\net8.0\BookManagementDbContext.cs
+D:\TERM5\PRN212\PE_PRN212_SU24_TrialTest_StudentName\BookManagement.DAL\bin\Debug\net8.0\Repositories\BookRepository.cs
+D:\TERM5\PRN212\PE_PRN212_SU24_TrialTest_StudentName\BookManagement.DAL\bin\Debug\net8.0\BookManagement.DAL.deps.json
+D:\TERM5\PRN212\PE_PRN212_SU24_TrialTest_StudentName\BookManagement.DAL\bin\Debug\net8.0\BookManagement.DAL.runtimeconfig.json
+D:\TERM5\PRN212\PE_PRN212_SU24_TrialTest_StudentName\BookManagement.DAL\bin\Debug\net8.0\BookManagement.DAL.dll
+D:\TERM5\PRN212\PE_PRN212_SU24_TrialTest_StudentName\BookManagement.DAL\bin\Debug\net8.0\BookManagement.DAL.pdb
+D:\TERM5\PRN212\PE_PRN212_SU24_TrialTest_StudentName\BookManagement.DAL\obj\Debug\net8.0\BookManagement.DAL.csproj.AssemblyReference.cache
+D:\TERM5\PRN212\PE_PRN212_SU24_TrialTest_StudentName\BookManagement.DAL\obj\Debug\net8.0\BookManagement.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\TERM5\PRN212\PE_PRN212_SU24_TrialTest_StudentName\BookManagement.DAL\obj\Debug\net8.0\BookManagement.DAL.AssemblyInfoInputs.cache
+D:\TERM5\PRN212\PE_PRN212_SU24_TrialTest_StudentName\BookManagement.DAL\obj\Debug\net8.0\BookManagement.DAL.AssemblyInfo.cs
+D:\TERM5\PRN212\PE_PRN212_SU24_TrialTest_StudentName\BookManagement.DAL\obj\Debug\net8.0\BookManagement.DAL.csproj.CoreCompileInputs.cache
+D:\TERM5\PRN212\PE_PRN212_SU24_TrialTest_StudentName\BookManagement.DAL\obj\Debug\net8.0\BookManagement.DAL.dll
+D:\TERM5\PRN212\PE_PRN212_SU24_TrialTest_StudentName\BookManagement.DAL\obj\Debug\net8.0\refint\BookManagement.DAL.dll
+D:\TERM5\PRN212\PE_PRN212_SU24_TrialTest_StudentName\BookManagement.DAL\obj\Debug\net8.0\BookManagement.DAL.pdb
+D:\TERM5\PRN212\PE_PRN212_SU24_TrialTest_StudentName\BookManagement.DAL\obj\Debug\net8.0\BookManagement.DAL.genruntimeconfig.cache
+D:\TERM5\PRN212\PE_PRN212_SU24_TrialTest_StudentName\BookManagement.DAL\obj\Debug\net8.0\ref\BookManagement.DAL.dll

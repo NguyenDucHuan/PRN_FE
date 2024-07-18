@@ -1,0 +1,42 @@
+﻿<Window x:Class="BookManagement_NguyenDucHuan.BookDetailWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookManagement_NguyenDucHuan"
+        mc:Ignorable="d"
+        Title="BookDetailWindow" Height="600" Width="800" FontFamily="Arial" FontSize="14" Background="#FFD4F7D4" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontFamily" Value="Arial Narrow"/>
+            <Setter Property="FontSize" Value="12pt"/>
+            <Setter Property="Foreground" Value="BlueViolet"/>
+            <Setter Property="Width" Value="auto"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Label x:Name="BookModeLabel" Content="Create | Update Book" HorizontalAlignment="Left" Height="auto" Margin="31,10,0,0" VerticalAlignment="Top" Width="451" FontSize="38"/>
+        <Rectangle HorizontalAlignment="Left" Height="444" Margin="62,93,0,0" Stroke="Aquamarine" VerticalAlignment="Top" Width="551" Fill="AntiqueWhite" RadiusX="9.339" RadiusY="9.339"/>
+        <TextBox  x:Name="BookIdTextBox" HorizontalAlignment="Left" Height="24" Margin="177,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221"/>
+        <Label Content="BookID" HorizontalAlignment="Left" Margin="79,123,0,0" VerticalAlignment="Top"/>
+        <Label Content="Book Name" HorizontalAlignment="Left" Height="32" Margin="79,161,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.535,1.314" />
+        <TextBox  x:Name="BookNameTextBox" HorizontalAlignment="Left" Height="24" Margin="177,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230"/>
+        <Label Content="Book Decs" HorizontalAlignment="Left" Height="29" Margin="79,213,0,0" VerticalAlignment="Top"/>
+        <TextBox  x:Name="DescriptionTextBox" HorizontalAlignment="Left" Height="102" Margin="176,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="369"  AcceptsReturn="True" VerticalScrollBarVisibility="Visible"/>
+        <Label Content="Pub.Date" HorizontalAlignment="Left" Margin="79,333,0,0" VerticalAlignment="Top"/>
+        <DatePicker  x:Name="PublicationDateDatePicker" HorizontalAlignment="Left" Margin="177,333,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" TabIndex="3" Height="28" Width="169" FontSize="12pt" FontFamily="Arial "/>
+        <Label Content="Book Quantity" HorizontalAlignment="Left" Margin="79,383,0,0" VerticalAlignment="Top"/>
+        <TextBox  x:Name="QuantityTextBox" HorizontalAlignment="Left" Height="24" Margin="176,385,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"/>
+        <Label Content="Book Price" HorizontalAlignment="Left" Margin="360,383,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.132,1.621"/>
+        <TextBox  x:Name="PriceTextBox" HorizontalAlignment="Left" Height="24" Margin="438,385,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137"/>
+        <ComboBox  x:Name="BookCategoryIdComboBox" HorizontalAlignment="Left" Margin="177,473,0,0" Height="24"  VerticalAlignment="Top" Width="230" Background="#FFD4F7D4" TabIndex="7" FontWeight="Bold" FontSize="12"/>
+
+        <Label Content="Book Category" HorizontalAlignment="Left" Margin="79,471,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="SaveButton" Content="Save Book" HorizontalAlignment="Left" Height="36" Margin="647,107,0,0" VerticalAlignment="Top" Width="134" TabIndex="8" Style="{StaticResource OutButton}" Click="SaveButton_Click"/>
+        <Button x:Name="CloseButton" Content="Close" HorizontalAlignment="Left" Height="35" Margin="647,165,0,0" VerticalAlignment="Top" Width="134" TabIndex="9"  Style="{StaticResource OutButton}" Click="CloseButton_Click" />
+        <Label Content="Author" HorizontalAlignment="Left" Margin="79,426,0,0" VerticalAlignment="Top"/>
+        <TextBox   x:Name="AuthorTextBox" HorizontalAlignment="Left"  Height="24" Margin="177,428,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"/>
+
+
+    </Grid>
+</Window>
